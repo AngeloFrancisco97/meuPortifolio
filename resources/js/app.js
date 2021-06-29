@@ -22,6 +22,20 @@ window.Vue = require('vue').default;
 Vue.component('example-component', require('./components/ExampleComponent.vue').default);
 Vue.component('home-component', require('./components/Home.vue').default);
 Vue.component('inicio-component', require('./components/Inicio.vue').default);
+Vue.component('portifolio-component', require('./components/Portifolio.vue').default);
+Vue.component('background-menu-component', require('./components/BackgroundMenu.vue').default);
+Vue.component('card-component', require('./components/Card.vue').default);
+Vue.component('card-portifolio-component', require('./components/CardPortifolio.vue').default);
+Vue.component('login-component', require('./components/Login.vue').default);
+Vue.component('menu-vertical-component', require('./components/MenuVertical.vue').default);
+Vue.component('projeto-admin-component', require('./components/ProjetoAdmin.vue').default);
+Vue.component('modal-component', require('./components/Modal.vue').default);
+Vue.component('input-container-component', require('./components/InputContainer.vue').default);
+Vue.component('alert-component', require('./components/Alert.vue').default);
+Vue.component('card-detalhes-projeto-component', require('./components/CardDetalhesProjeto.vue').default);
+Vue.component('perfil-component', require('./components/Perfil.vue').default);
+Vue.component('habilidade-component', require('./components/Habilidade.vue').default);
+
 
 /**
  * Next, we will create a fresh Vue application instance and attach it to

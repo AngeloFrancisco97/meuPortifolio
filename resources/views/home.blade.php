@@ -1,5 +1,10 @@
 @extends('layouts.app')
 
 @section('content')
- <home-component></home-component>
+<menu-vertical-component class=""></menu-vertical-component>
+@include('layouts.menuVertical')
+<home-component projetos="{{ route('projeto_admin')}}" perfil="{{ route('perfil')}}" habilidades="{{ route('habilidade')}}">  
+    
+</home-component>
+
 @endsection

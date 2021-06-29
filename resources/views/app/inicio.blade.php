@@ -1,5 +1,5 @@
 @extends('layouts.app')
 
 @section('content')
- <inicio-component></inicio-component>
+ <inicio-component portifolio="{{ route('portifolio')}}"></inicio-component>
 @endsection

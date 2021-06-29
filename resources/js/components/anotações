@@ -1,0 +1,46 @@
+<div class="col">
+                        <div class="card h-100 card-habilidades">
+                            <img src="/storage/imagens/projetoSuperGestao.png" class="card-img-top" alt="teste">
+                            <div class="card-body">
+                                <h4 class="card-title">PROJETO SUPER GESTÃO</h4>
+                                <p class="card-text">Desenvolvido em paralecom com o curso Desenvolvimento Web Avançado 2021 com PHP, Laravel e Vue.JS - Plataforma Udemy."</p>
+                                <h5 class="card-title"> Ferramentas utilizadas </h5>
+                                <p class="card-text">PHP, Laravel, bootstrap, HTML, CSS, MySql.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        
+                        <div class="card h-100 card-habilidades" >
+                            <img src="/storage/imagens/locadoraCarros.png" class="card-img-top" alt="teste">
+                            <div class="card-body">
+                            <h4 class="card-title">PROJETO ALUGEL DE CARROS</h4>
+                            <p class="card-text">Desenvolvido em paralecom com o curso Desenvolvimento Web Avançado 2021 com PHP, Laravel e Vue.JS - Plataforma Udemy."</p>
+                            <h5 class="card-title"> Ferramentas utilizadas</h5>
+                            <p class="card-text">PHP, Laravel, Mysql, Bootstrap, HTML, CSS, VueJs, JavaScript, Axios, API.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100 card-habilidades" >
+                            <img src="/storage/imagens/projetoTrader.png" class="card-img-top" alt="teste">
+                            <div class="card-body">
+                            <h5 class="card-title">Banco de Dados</h5>
+                            <p class="card-text">Tenho conhecimentos em PostgresSql e Mysql.<br>
+                            Adiquiri esses conhecimentos principalmente na faculdade e no estágio que eu fiz durante a faculdade.</p>
+                            <p class="card-text">Tenho capacidade de criar banco de dados com relacionamentos, realizar o CRUD, realizar pesquisas avançadas entre outros.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+
+                        <div class="card h-100 card-habilidades" >
+                            <img src="/storage/imagens/projetoNlw.png" class="card-img-top" alt="teste">
+                            <div class="card-body">
+                            <h5 class="card-title">Banco de Dados</h5>
+                            <p class="card-text">Tenho conhecimentos em PostgresSql e Mysql.<br>
+                            Adiquiri esses conhecimentos principalmente na faculdade e no estágio que eu fiz durante a faculdade.</p>
+                            <p class="card-text">Tenho capacidade de criar banco de dados com relacionamentos, realizar o CRUD, realizar pesquisas avançadas entre outros.</p>
+                            </div>
+                        </div>
+                    </div>

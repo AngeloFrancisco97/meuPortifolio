@@ -8,7 +8,7 @@ use Illuminate\Database\Eloquent\Factories\HasFactory;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
-class User extends Authenticatable
+class User extends Authenticatable implements JWTSubject
 {
     use HasFactory, Notifiable;
 
@@ -21,7 +21,16 @@ class User extends Authenticatable
         'name',
         'email',
         'password',
+        'idade',
+        'descricao_perfil',
+        'foto_perfil',
+        'foto_descricao',
+        'telefone',
+        'endereco',
+        'celular',
+        'profissao',
     ];
+    
 
     /**
      * The attributes that should be hidden for arrays.
@@ -61,5 +70,27 @@ class User extends Authenticatable
     {
         return [];
     }
+
+    public function rules() {
+        return [
+            'name' => 'required',
+            'idade' => 'required',
+            'endereco' => 'required',
+            'email' => 'required',
+            'descricao_perfil' => 'required',
+            'foto_perfil' => 'required|file|mimes:png,jpg,jpeg',
+            'foto_descricao' => 'required|file|mimes:png,jpg,jpeg',
+            'curriculo' => 'required|file|mimes:png,jpg,jpeg,pdf',
+            'endereco' => 'required',
+            'celular' => 'required',
+            'profissao' => 'required',
+
+        ];
+    }
+
+    public function informacoes() {
+        return $this->hasMany('App\Models\Informacao');
+    }
+
 
 }
